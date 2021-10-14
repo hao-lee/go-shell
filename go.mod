@@ -1,4 +1,4 @@
-module github.com/rfyiamcool/go-shell
+module github.com/hao-lee/go-shell
 
 go 1.14
 

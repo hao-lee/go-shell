@@ -205,6 +205,7 @@ func (c *Cmd) run() error {
 		c.Status.Error = err
 		return err
 	}
+	c.Status.PID = c.stdcmd.Process.Pid
 
 	go c.handleWait()
 
